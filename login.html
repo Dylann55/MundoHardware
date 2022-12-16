@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+    <link rel="stylesheet" type="text/css" href="login.css">
+    
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCS8hTzfEdy5ZPqeFIQ7Qad52XgFlCFT2s",
+      authDomain: "calendario-5fa61.firebaseapp.com",
+      databaseURL: "https://calendario-5fa61-default-rtdb.firebaseio.com",
+      projectId: "calendario-5fa61",
+      storageBucket: "calendario-5fa61.appspot.com",
+      messagingSenderId: "135063727874",
+      appId: "1:135063727874:web:6894dc3a70966149c2dc1b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+<body>
+
+  <form class="formulario" onsubmit="return false;">
+    
+    <h1>Iniciar Sesion</h1>
+     <div class="contenedor">
+     
+     
+         
+         <div class="input-contenedor">
+         <i class="fas fa-envelope icon"></i>
+          <input id="email2" type="email" placeholder="Ingrese email">
+         
+         </div>
+         
+         <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+         <input id="contrasena2" type="password" placeholder="Ingrese contraseña">
+        
+         </div>
+        <button onclick="Ingreso()">Acceder</button>
+        <div id="contenido"></div>
+         <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+         <p>¿No tienes una cuenta? <a class="link" href="registrar.html">Registrate </a></p>
+     </div>
+    </form>
+
+
+  
+    
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
