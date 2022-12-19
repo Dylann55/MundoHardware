@@ -1,2 +1,2 @@
 # MundoHardware
-Pagina de ventas de Dispositivos variados(Base de datos Firewall)
+Pagina de ventas de Dispositivos variados(Base de datos Firebase)
